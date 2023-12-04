@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Workshop</title>
+        <meta name="description" content="html-form">
+        <meta name="author" content="Tanatan Janto">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>              
+        <form>
+        
+        <h1>workshop#html-form</h1>   <br>  
+        <!-- First Name -->
+        <span>
+            <label for="fname">First Name&emsp;</label>
+            <input type="text" id="fname" name="fname" required><br><br>
+        </span>
+        <!-- Last Name -->
+        <span>
+            <label for="lname">Last Name&emsp;</label>    
+            <input type="text" id="lname" name="lname" required><br><br>
+        </span>
+        <!-- birth date -->
+        <span>
+            <label for="bdate">Birth Date&emsp;</label>
+            <input type="date" name="Date" id="date"  required><br><br>
+        <span>
+        <!-- age -->
+        <span>
+            <label for="age">Age&emsp;</label>
+            <input type="number" name="age" id="age" min="0" max="100" required><br><br>
+        </span>
+        <!-- gentle -->
+        <span>
+            <label for="gentle">Gentle&emsp;</label>
+            <input type="radio" id="male" name="gentle" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gentle" value="Female">
+            <label for="female">Female</label><br><br>
+        </span>    
+        <!-- picture -->
+        <span>
+            <label for="picture">Picture&emsp;</label>
+            <input type="file" name="myfile" id="myfile" required><br><br>
+        </span>    
+        <!-- address -->
+        <span>
+            <label for="address">Address&emsp;</label>
+            <textarea name="Address" id="ddress" cols="30" rows="5" required></textarea><br><br>
+        </span>    
+        <!-- fav color -->
+        <span>
+            <label for="favcolor">Favorite color&emsp;</label>
+            <input type="color" name="color" id="color" width="100"><br><br>
+        </span>
+        <!-- fav song -->
+        <span>
+            <label for="favSong">Favorite song&emsp;</label>
+            <input type="radio" id="hiphop" name="favSong" value="Hiphop">
+            <label for="hiphop">Hiphop</label>
+            <input type="radio" id="country" name="favSong" value="Country">
+            <label for="country">Country</label>
+            <input type="radio" id="other" name="favSong" value="Other">
+            <label for="other">Other</label><br><br>
+        </span>
+        <!-- acception -->
+        <span>
+            <input type="checkbox" name="accept" id="accept">
+            <label for="accept">I accept </label><a href="https://www.google.com/" target="_blank"><ins>Terms&Conditions</ins></a><br><br><br><br><br>
+        </span>
+        <!-- submit&reset -->
+        <span class="submitAndReset">
+            <button type="submit" ><strong>Submit</strong></button><br><br>
+            <span class="reset">
+                <i>edit information?</i>
+                <button type="reset"><ins>reset</ins></button>
+            </span>    
+        </span>
+        </form>
+        <div class="backgrountl1"></div>
+        
+    </body> 
+
+</html>
